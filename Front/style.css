@@ -1,8 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap");
+
 :root {
     --main-color: #460a26;
     --pink: #d1136d;
     --gray-border: #c1c1c1;
     --gray-text: #9a9a9a;
+    --gray-dark-text: #414141;
 }
 
 * {
@@ -192,4 +195,86 @@ form {
     margin: 0 10px;
     margin-top: 20px;
     cursor: pointer;
+}
+
+.dash-right {
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.3);
+}
+
+.header-dash {
+    width: 100%;
+    padding: 30px 0;
+    border-bottom: 1px solid var(--gray-border);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-dash img {
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid var(--main-color);
+    margin-right: 10px;
+}
+
+.header-dash p {
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.header-dash a {
+    color: #000;
+}
+
+.info-box-dash {
+    padding: 50px 30px 0;
+    position: relative;
+}
+
+.info-box-dash h1 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.g-box-dash {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.l-t-d {
+    font-size: 14px;
+    color: var(--gray-dark-text);
+}
+
+.r-t-d {
+    color: #000;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.btn-secondary {
+    color: var(--main-color);
+    padding: 5px 14px 7px;
+    font-size: 15px;
+    font-family: "Roboto Condensed", sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid var(--main-color);
+    border-radius: 25px;
+    transition: all 0.3s;
+}
+
+.btn-secondary:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.dash-btn {
+    position: absolute;
+    top: 43px;
+    right: 100px;
 }
