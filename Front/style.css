@@ -18,3 +18,131 @@
     max-width: 1140px;
     margin: 0 auto;
 }
+
+.container-login {
+    display: flex;
+    height: 100vh;
+    position: relative;
+}
+
+.container-login div {
+    flex: 1;
+}
+
+.right-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    color: #fff;
+    background: rgb(70, 10, 38);
+    background: linear-gradient(
+        149deg,
+        rgba(70, 10, 38, 1) 0%,
+        rgba(35, 5, 20, 1) 63%
+    );
+}
+
+.left h1 {
+    font-size: 26px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.subtxt {
+    max-width: 271px;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 19px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+form {
+    width: 271px;
+}
+
+.box-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-input label {
+    font-size: 13px;
+    font-weight: 200;
+    color: var(--gray-text);
+}
+
+.box-input input {
+    height: 40px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.box-input input:active {
+    background: transparent;
+}
+
+.btn-main {
+    padding: 9px 46px 10px;
+    background: #fff;
+    color: var(--main-color);
+    font-size: 14px;
+    border: none;
+    border-radius: 25px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+    transition: all 0.2s;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.btn-main:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.txt-esqueceu {
+    font-size: 13px;
+    font-weight: 200;
+    color: var(--gray-text);
+    margin-top: 10px;
+    text-align: center;
+}
+
+.txt-esqueceu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.txt-registro {
+    position: absolute;
+    bottom: 29px;
+
+    font-size: 13px;
+    font-weight: 200;
+    color: var(--gray-text);
+    margin-top: 10px;
+    text-align: center;
+}
+
+.txt-registro a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.txt-registro i {
+    margin-right: 5px;
+}
