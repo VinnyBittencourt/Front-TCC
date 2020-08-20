@@ -1,0 +1,20 @@
+:root {
+    --main-color: #460a26;
+    --pink: #d1136d;
+    --gray-border: #c1c1c1;
+    --gray-text: #9a9a9a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.center {
+    width: 94%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
