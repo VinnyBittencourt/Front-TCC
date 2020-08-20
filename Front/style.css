@@ -19,6 +19,8 @@
     margin: 0 auto;
 }
 
+/* ----- Login / Register ----- */
+
 .container-login {
     display: flex;
     height: 100vh;
@@ -145,4 +147,49 @@ form {
 
 .txt-registro i {
     margin-right: 5px;
+}
+
+/* ----- Dashboard ----- */
+
+.container-dash {
+    display: flex;
+    height: 100vh;
+}
+
+.dash-left {
+    flex: 2;
+    color: #fff;
+    background: rgb(70, 10, 38);
+    background: linear-gradient(
+        149deg,
+        rgba(70, 10, 38, 1) 0%,
+        rgba(35, 5, 20, 1) 63%
+    );
+    padding: 25px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dash-right {
+    flex: 1;
+}
+.dash-logo {
+    width: 135px;
+    margin: 0px 0 50px;
+}
+
+.dash-cam {
+    width: 738px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.box-btns button {
+    padding: 20px 20px;
+    border-radius: 50%;
+    border: none;
+    margin: 0 10px;
+    margin-top: 20px;
+    cursor: pointer;
 }
