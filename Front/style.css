@@ -229,6 +229,34 @@
     color: #000;
 }
 
+.box-sub {
+    position: relative;
+}
+
+.sub {
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: -30px;
+    list-style: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    border: 1px solid var(--gray-border);
+}
+
+.sub li {
+    padding: 5px 20px;
+    border-bottom: 1px solid #ccc;
+    transition: all 0.2s;
+    background: #fff;
+}
+.sub li:hover {
+    background: #ddd;
+}
+
+.sub li a {
+    text-decoration: none;
+}
+
 .info-box-dash {
     padding: 50px 30px 0;
     position: relative;
