@@ -4,7 +4,9 @@
     --main-color: #460a26;
     --pink: #d1136d;
     --gray-border: #c1c1c1;
-    --gray-text: #9a9a9a;
+    /* --gray-text: #9a9a9a; */
+    --gray-text: #bfbebe;
+    --gray-text-2: #d9d9d9;
     --gray-dark-text: #414141;
     --main-color-dark: #230514;
 }
@@ -57,15 +59,15 @@
 }
 
 .left h1 {
-    font-size: 26px;
+    font-size: 28px;
     text-transform: uppercase;
     margin-bottom: 10px;
 }
 
 .subtxt {
     max-width: 271px;
-    font-size: 14px;
-    font-weight: 200;
+    font-size: 16px;
+    font-weight: 300;
     line-height: 19px;
     text-align: center;
     margin-bottom: 25px;
@@ -81,8 +83,8 @@
 }
 
 .box-input label {
-    font-size: 13px;
-    font-weight: 200;
+    font-size: 14px;
+    font-weight: 300;
     color: var(--gray-text);
 }
 
@@ -94,17 +96,14 @@
     color: #fff;
     font-size: 14px;
     margin-bottom: 20px;
-}
-
-.box-input input:active {
-    background: transparent;
+    padding: 0 10px;
 }
 
 .btn-main {
     padding: 9px 46px 10px;
     background: #fff;
     color: var(--main-color);
-    font-size: 14px;
+    font-size: 16px;
     border: none;
     border-radius: 25px;
     display: block;
@@ -121,8 +120,8 @@
 }
 
 .txt-esqueceu {
-    font-size: 13px;
-    font-weight: 200;
+    font-size: 14px;
+    font-weight: 300;
     color: var(--gray-text);
     margin-top: 10px;
     text-align: center;
@@ -137,8 +136,8 @@
     position: absolute;
     bottom: 29px;
 
-    font-size: 13px;
-    font-weight: 200;
+    font-size: 14px;
+    font-weight: 300;
     color: var(--gray-text);
     margin-top: 10px;
     text-align: center;
@@ -170,10 +169,62 @@
         rgba(35, 5, 20, 1) 63%
     );
     padding: 25px;
+}
+.left-dash {
+    max-width: 1150px;
+    margin-left: auto;
+    padding: 0px 25px;
+
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+.left-dash h2 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 24;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+.left-dash p {
+    font-size: 16px;
+    color: var(--gray-text-2);
+    line-height: 21px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.procedure-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.left-dash img {
+    max-width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.3);
+}
+
+.btn-procedure {
+    margin-right: 20px;
+    padding: 0px 35px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    font-size: 16px;
+    font-family: "Roboto Condensed", sans-serif;
+    color: var(--main-color);
+    font-weight: bold;
+    cursor: pointer;
 
     display: flex;
     align-items: center;
-    flex-direction: column;
+}
+
+.btn-procedure img {
+    margin-right: 10px;
+    fill: var(--main-color);
 }
 
 .dash-right {
@@ -181,7 +232,8 @@
 }
 .dash-logo {
     width: 135px;
-    margin: 0px 0 50px;
+    margin: 0px auto;
+    margin-bottom: 30px;
 }
 
 .dash-cam {
@@ -220,7 +272,7 @@
 }
 
 .header-dash p {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
     margin-right: 5px;
 }
@@ -263,7 +315,7 @@
 }
 
 .info-box-dash h1 {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     margin-bottom: 20px;
 }
@@ -274,13 +326,13 @@
 }
 
 .l-t-d {
-    font-size: 14px;
+    font-size: 16px;
     color: var(--gray-dark-text);
 }
 
 .r-t-d {
     color: #000;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 600;
     margin-left: 10px;
 }
@@ -305,7 +357,13 @@
 .dash-btn {
     position: absolute;
     top: 43px;
-    right: 100px;
+    right: 50px;
+}
+
+@media (min-width: 1800px) {
+    .dash-btn {
+        right: 150px;
+    }
 }
 
 /* ----- Form ----- */
@@ -333,15 +391,15 @@
 }
 
 .container-form h1 {
-    font-size: 26px;
+    font-size: 28px;
     text-transform: uppercase;
     margin-bottom: 10px;
 }
 
 .form-txt {
     max-width: 271px;
-    font-size: 14px;
-    font-weight: 200;
+    font-size: 16px;
+    font-weight: 300;
     text-align: center;
     margin-bottom: 35px;
 }
@@ -367,7 +425,7 @@
     margin-left: 25px;
     margin-bottom: 5px;
     color: #fff;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 300;
     display: block;
 }
